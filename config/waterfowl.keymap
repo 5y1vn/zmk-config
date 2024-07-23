@@ -10,10 +10,10 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
-#define NAVNUM 1
-#define SYMBOL 2
-#define FUNCS 3
-#define GAMING 4
+#define NAVNUM  1
+#define SYMBOL  2
+#define FUNCS   3
+#define GAMING  4
 
 / {
     combos {
@@ -186,7 +186,7 @@
   &kp LSHFT  &kp A       &kp S      &kp D     &kp F           &trans  &trans  &trans  &trans  &trans
   &kp LCTRL  &kp Z       &kp X      &kp C     &kp V           &trans  &trans  &trans  &trans  &trans
   &kp N1     &lt 5 ESC   &kp SPACE  &kp TAB   &kp CAPSLOCK    &kp KP_NUMLOCK  &kp ESC      &kp BSPC     &lt NAVNUM RET   &kp N4
-            >;
+>;
 
             sensor-bindings = <
                 &inc_dec_kp PAGE_DOWN PAGE_UP
@@ -196,7 +196,7 @@
             >;
         };
 
-        gaming_num {
+        gamenum_layer {
         /* Gaming
  *
  * ,----------------------------------.                          ,----------------------------------.
@@ -226,6 +226,7 @@
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
             >;
+        };
 
     };
 };
