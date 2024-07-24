@@ -18,12 +18,28 @@
 / {
     combos {
         compatible = "zmk,combos";
-
         gaming_toggle {
+            timeout-ms = <50>;
             bindings = <&tog 4>;
             key-positions = <33 14>;
         };
+
+        combo_base {
+            timeout-ms = <50>;
+            key-positions = <33 12>;
+            bindings = <&to 0>;
+        };
     };
+
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
+
 
     keymap {
         compatible = "zmk,keymap";
