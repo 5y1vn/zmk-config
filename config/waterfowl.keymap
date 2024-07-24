@@ -120,10 +120,10 @@
  */
 
             bindings = <
-  &kp PRCNT  &kp AT    &kp LBKT  &kp RBKT  &kp NON_US_BSLH    &trans     &trans    &kp CARET          &trans     &trans
-  &kp HASH   &kp EXCL  &kp LPAR  &kp RPAR  &kp PIPE           &kp UNDER  &kp APOS  &kp DOUBLE_QUOTES  &kp TILDE  &kp GRAVE
-  &kp DLLR   &trans    &kp LBRC  &kp RBRC  &kp AMPS           &trans     &trans    &trans             &trans     &trans
-  &trans     &trans    &trans    &trans    &trans             &trans     &trans    &trans             &trans     &trans
+  &kp PRCNT  &kp AT    &kp LBKT   &kp RBKT  &kp NON_US_BSLH    &trans     &trans      &kp CARET          &trans     &trans
+  &kp HASH   &kp EXCL  &kp LPAR   &kp RPAR  &kp PIPE           &kp UNDER  &kp APOS    &kp DOUBLE_QUOTES  &kp TILDE  &kp GRAVE
+  &kp DLLR   &trans    &kp LBRC   &kp RBRC  &kp AMPS           &trans     &trans      &trans             &trans     &trans
+  &trans     &mo 1     &kp SPACE  &kp TAB   &trans             &trans     &kp RETURN  &kp BACKSPACE      &mo 2      &trans
             >;
 
             sensor-bindings = <
@@ -182,10 +182,10 @@
  */
 
             bindings = <
-  &kp TAB    &kp Q  &kp W      &kp E    &kp R           &trans          &trans   &trans    &trans          &trans
-  &kp LSHFT  &kp A  &kp S      &kp D    &kp F           &trans          &trans   &trans    &trans          &trans
-  &kp LCTRL  &kp Z  &kp X      &kp C    &kp V           &trans          &trans   &trans    &trans          &trans
-  &trans     &mo 5  &kp SPACE  &kp TAB  &kp CAPSLOCK    &kp KP_NUMLOCK  &kp ESC  &kp BSPC  &lt NAVNUM RET  &trans
+  &kp TAB          &kp Q  &kp W      &kp E    &kp R              &trans          &trans   &trans    &trans          &trans
+  &kp LSHFT        &kp A  &kp S      &kp D    &kp F              &trans          &trans   &trans    &trans          &trans
+  &kp LCTRL        &kp Z  &kp X      &kp C    &kp V              &trans          &trans   &trans    &trans          &trans
+  &kp PRINTSCREEN  &mo 5  &kp SPACE  &kp TAB  &kp LG(LS(F10))    &kp KP_NUMLOCK  &kp ESC  &kp BSPC  &lt NAVNUM RET  &trans
             >;
 
             sensor-bindings = <
