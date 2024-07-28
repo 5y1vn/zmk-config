@@ -17,7 +17,7 @@
         compatible = "zmk,combos";
 
         gaming {
-            bindings = <&tog 9>;
+            bindings = <&tog 10>;
             key-positions = <14 33>;
         };
     };
@@ -147,9 +147,9 @@
 
         GAME {
             bindings = <
-  &kp ESCAPE       &kp Q  &kp W      &kp E    &kp R              &trans  &trans  &trans  &trans  &trans
-  &kp LSHFT        &kp A  &kp S      &kp D    &kp F              &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL        &kp Z  &kp X      &kp C    &kp V              &trans  &trans  &trans  &trans  &trans
+  &kp ESCAPE       &kp Q   &kp W      &kp E    &kp R              &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT        &kp A   &kp S      &kp D    &kp F              &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL        &kp Z   &kp X      &kp C    &kp V              &trans  &trans  &trans  &trans  &trans
   &kp PRINTSCREEN  &mo 11  &kp SPACE  &kp TAB  &kp LG(LS(F10))    &trans  &trans  &trans  &trans  &trans
             >;
 
