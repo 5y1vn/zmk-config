@@ -147,20 +147,24 @@
 
         GAME {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &kp ESCAPE       &kp Q  &kp W      &kp E    &kp R              &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT        &kp A  &kp S      &kp D    &kp F              &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL        &kp Z  &kp X      &kp C    &kp V              &trans  &trans  &trans  &trans  &trans
+  &kp PRINTSCREEN  &mo 11  &kp SPACE  &kp TAB  &kp LG(LS(F10))    &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = < &inc_dec_kp PAGE_DOWN PAGE_UP &inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp DOWN UP &inc_dec_kp LEFT RIGHT>;
         };
 
         GAMENUM {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &kp ESC          &kp N7  &kp N8     &kp N9   &kp BSPC           &trans  &trans  &trans  &trans  &trans
+  &kp GRAVE        &kp N4  &kp N5     &kp N6   &kp RET            &trans  &trans  &trans  &trans  &trans
+  &kp N0           &kp N1  &kp N2     &kp N3   &kp M              &trans  &trans  &trans  &trans  &trans
+  &kp PRINTSCREEN  &mo 11  &kp SPACE  &kp TAB  &kp LG(LS(F10))    &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = < &inc_dec_kp PAGE_DOWN PAGE_UP &inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp DOWN UP &inc_dec_kp LEFT RIGHT>;
         };
     };
 };
