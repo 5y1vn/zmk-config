@@ -26,7 +26,6 @@ include:
     snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: waterfowl_center
-    snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: settings_reset
     snippet: zmk-usb-logging
