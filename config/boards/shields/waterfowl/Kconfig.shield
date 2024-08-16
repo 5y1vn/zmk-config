@@ -1,12 +1,11 @@
 #Copyright (c) 2022 The ZMK Contributors
 #SPDX-License-Identifier: MIT
 
+config SHIELD_WATERFOWL_CENTRAL_DONGLE
+    def_bool $(shields_list_contains,waterfowl_central_dongle)
 
 config SHIELD_WATERFOWL_LEFT
     def_bool $(shields_list_contains,waterfowl_left)
 
 config SHIELD_WATERFOWL_RIGHT
     def_bool $(shields_list_contains,waterfowl_right)
-
-config SHIELD_WATERFOWL_CENTER
-    def_bool $(shields_list_contains,waterfowl_center)
