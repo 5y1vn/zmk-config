@@ -1,9 +1,27 @@
-// import the default shield configuration
+/*
+ * Copyright (c) 2020 Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include "waterfowl.dtsi"
 
-&kscan {
-    compatible = "zmk,kscan-mock";
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+        zmk,matrix-transform = &default_transform;
+    };
 
+    mock_kscan: kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};
+
+&kscan0 {
+    compatible = "zmk,kscan-mock";
     columns = <0>;
     rows = <0>;
     events = <0>;
