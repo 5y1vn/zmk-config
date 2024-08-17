@@ -7,6 +7,12 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+config BT_CLTR_TX_PWR_PLUS_8
+    default y
+
 endif
 
 if SHIELD_WATERFOWL_CENTRAL_DONGLE || SHIELD_WATERFOWL_LEFT || SHIELD_WATERFOWL_RIGHT
@@ -42,3 +48,20 @@ endchoice
 endif # LVGL
 
 endif
+
+
+if SHIELD_WATERFOWL_LEFT
+
+    # Setting this to y will make the left half the central
+    # We want it to be the central when dongle is not used
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+
+    # Check if the left half is the central
+    if ZMK_SPLIT_ROLE_CENTRAL
+        config ZMK_KEYBOARD_NAME
+            default "Waterfowl"
+            
+    endif # ZMK_SPLIT_ROLE_CENTRAL
+
+endif # SHIELD_WATERFOWL_LEFT
