@@ -9,7 +9,7 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan;
+        zmk,kscan = &kscan0;
     };
 
     kscan0: kscan {
