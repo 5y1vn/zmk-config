@@ -12,17 +12,10 @@
         zmk,matrix-transform = &default_transform;
     };
 
-    mock_kscan: kscan_0 {
+    &kscan0: {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
         events = <0>;
     };
 };
-
-&kscan0 {
-    compatible = "zmk,kscan-mock";
-    columns = <0>;
-    rows = <0>;
-    events = <0>;
-}
