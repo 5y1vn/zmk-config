@@ -161,8 +161,8 @@
             display-name = "GameNum";
             bindings = <
   &kp GRAVE        &kp Q   &kp W      &kp E    &kp R              &trans            &trans  &trans  &trans  &trans
-  &kp LSHFT        &kp N1  &kp N2     &kp N3   &kp N4             &trans            &trans  &trans  &trans  &trans
-  &kp LALT         &kp Z   &kp X      &kp C    &kp V              &trans            &trans  &trans  &trans  &trans
+  &kp N1           &kp N2  &kp N3     &kp N4   &kp N5             &trans            &trans  &trans  &trans  &trans
+  &kp LSHFT        &kp Z   &kp X      &kp C    &kp V              &trans            &trans  &trans  &trans  &trans
   &kp PRINTSCREEN  &mo 11  &kp SPACE  &kp TAB  &kp LG(LS(F10))    &kp LG(LS(F11))  &trans  &trans  &trans  &trans
             >;
 
