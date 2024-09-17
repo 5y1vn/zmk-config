@@ -148,7 +148,7 @@
         GAME {
             display-name = "Game";
             bindings = <
-  &u_mt LGUI ESCAPE  &kp Q   &kp W      &kp E    &kp R              &trans           &trans  &trans  &trans  &trans
+  &u_mt LGUI ESC     &kp Q   &kp W      &kp E    &kp R              &trans           &trans  &trans  &trans  &trans
   &kp LSHFT          &kp A   &kp S      &kp D    &kp F              &trans           &trans  &trans  &trans  &trans
   &kp LCTRL          &kp Z   &kp X      &kp C    &kp V              &trans           &trans  &trans  &trans  &trans
   &kp LALT           &mo 11  &kp SPACE  &kp TAB  &kp LG(LS(F10))    &kp LG(LS(F11))  &trans  &trans  &trans  &trans
