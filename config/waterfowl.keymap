@@ -148,10 +148,10 @@
         GAME {
             display-name = "Game";
             bindings = <
-  &u_mt LGUI ESC     &kp Q       &kp W             &kp E    &kp R              &trans  &trans  &trans  &trans  &trans
-  &kp LSHFT          &kp A       &kp S             &kp D    &kp F              &trans  &trans  &trans  &trans  &trans
-  &kp LCTRL          &kp Z       &kp X             &kp C    &kp V              &trans  &trans  &trans  &trans  &trans
-  &kp LALT           &kp RALT    &u_lt 11 SPACE    &kp TAB  &kp LG(LS(F10))       &trans  &trans  &trans  &trans  &trans
+  &u_mt LGUI ESC     &kp Q            &kp W         &kp E    &kp R              &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT          &kp A            &kp S         &kp D    &kp F              &trans  &trans  &trans  &trans  &trans
+  &kp LCTRL          &kp Z            &kp X         &kp C    &kp V              &trans  &trans  &trans  &trans  &trans
+  &kp LALT           &u_lt 11 RALT    &kp SPACE     &kp TAB  &kp LG(LS(F10))    &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = < &inc_dec_kp PAGE_DOWN PAGE_UP &inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp DOWN UP &inc_dec_kp LEFT RIGHT>;
@@ -160,9 +160,9 @@
         GAMENUM {
             display-name = "GameNum";
             bindings = <
-  &kp GRAVE        &kp Q     &kp W      &kp E    &kp R              &trans  &trans  &trans  &trans  &trans
-  &kp N1          &kp N2    &kp N3     &kp N4   &kp N5             &trans  &trans  &trans  &trans  &trans
-  &kp LSHFT        &kp Z     &kp X      &kp C    &kp V              &trans  &trans  &trans  &trans  &trans
+  &kp GRAVE         &kp Q     &kp W      &kp E    &kp R              &trans  &trans  &trans  &trans  &trans
+  &kp N1            &kp N2    &kp N3     &kp N4   &kp N5             &trans  &trans  &trans  &trans  &trans
+  &kp LSHFT         &kp Z     &kp X      &kp C    &kp V              &trans  &trans  &trans  &trans  &trans
   &kp PRINTSCREEN   &trans    &trans     &kp TAB  &kp LG(LS(F11))    &trans  &trans  &trans  &trans  &trans
             >;
 
